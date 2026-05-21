@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bozorboyeva Maftuna</title>
+    <style>
+        :root {
+            --qora: #0d0d0d;
+            --toq: #1a1612;
+            --oltin: #c9a84c;
+            --oltin2: #e8c97a;
+            --oq: #f5f0e8;
+            --kulrang: #888070;
+        }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+
+            body {
+                background-color:var(--qora);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                color: #fff;
+                line-height: 1.6;
+            }
+
+            .contenr {
+                width: 600px;
+                background-color:var(--toq);
+                border: 1px solid var(--oltin2);
+                
+
+            }
+            header{
+                padding: 50px;
+                position:relative;
+                border: 1px solid var(--oltin2);
+                border-bottom:none;
+
+                
+
+            }
+            .icon{
+                position: absolute;
+                right: 50px;
+                font-size: 50px;
+                opacity: 0.3;
+            }
+
+            header h1{
+                margin: 20px 0;
+            }
+            header h3 {
+                color:var(--oltin);
+                
+            }
+            .fam{
+                font-style: italic;
+                color: var(--oltin2);
+            }
+            header p{
+                width: 330px;
+                color: var(--kulrang);
+            }
+            header span{
+                color: white;
+                
+            }
+            main{
+                display: flex;
+                border-top:none ;
+            }
+            main section, aside{
+                display: inline-block;
+                
+            }
+            main section{
+                padding:30px;
+            }
+            main img, main a{
+                display:block;
+                
+            }
+            main aside{
+                width: 130px;
+                display: flex;
+                flex-direction: column;
+                background-color: var(--qora);
+            }
+            main aside a{
+                color: var(--oq);
+                text-align: center;
+                border: 1px solid var(--oq);
+                width: 40px;
+                height: 40px;
+                margin: 5px auto;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+            main aside img{
+                border-radius: 50%;
+                width: 80px;
+                margin: 20px auto;
+
+            }
+            main article{
+                display: flex;
+                height: 50px;
+                align-items: center;
+                gap: 10px;
+            }
+            main article a{
+                color: var(--oq);
+            }
+            main article h4{
+                color: var(--kulrang);
+            }
+            .belgi{
+                background-color: var(--kulrang);
+                color: #0d0d0d;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                text-align: center;
+            }
+            footer{
+                padding: 20px 50px;
+                position: relative;
+            }
+            footer span{
+                  border: 1px solid var(--oq);
+                  padding: 5px 8px;
+                  color: var(--oltin2);
+                  margin: 5px ;
+
+            }
+            footer h3{
+                color: var(--kulrang);
+            }
+            footer p{
+                line-height: 3;
+                width: 400px;
+            }
+            footer img{
+                width:50px;
+                height:50px;
+                position: absolute;
+                right: 50px;
+                top: 50px;
+            }
+            
+    </style>
+</head>
+
+<body>
+    <div class="contenr">
+
+        <header>
+            <span class="icon">M</span>
+            <h3>Backend Dasturchi</h3>
+            <h1>Maftuna <span class="fam">Bozorboyeva</span></h1>
+
+            <p> <span> Python </span> va <span> Django</span> bilan professional veb ilovalar va REST API yarataman. 2yillik amaliy tajriba. </p>
+        </header>
+        <hr>
+        <main>
+            <aside>
+                <img src="https://picsum.photos/100/100" alt="rasm">
+                  <a href="#">GH</a>
+                  <a href="#">TG</a>
+                  <a href="#">LI</a>
+            </aside>
+            <section>
+                <article>
+                    <div class="belgi">
+                      @
+                    </div>
+                    <div>
+                        <h4>email</h4>
+                        <a href="#">bozorboyevamaftuna358@email.com</a>
+
+                    </div>
+                </article>
+
+                 <article>
+                    <div class="belgi">
+                      @
+                    </div>
+                    <div>
+                        <h4>telefon</h4>
+                        <a href="#">+998876320401</a>
+
+                    </div>
+                </article>
+
+                 <article>
+                    <div class="belgi">
+                      @
+                    </div>
+                    <div>
+                        <h4>joylashuv</h4>
+                        <a href="#">surxondaryo denov</a>
+
+                    </div>
+                </article>
+
+                 <article>
+                    <div class="belgi">
+                      @
+                    </div>
+                    <div>
+                        <h4>sayt</h4>
+                        <a href="#">maftunadev.uz</a>
+
+                    </div>
+                    
+                </article>
+            </section>
+             
+
+        </main>
+        <footer>
+           <h3>texnologiyalar</h3>
+
+            <p><span>python</span> <span>django</span> <span>postgreSQL</span> <span>REST API</span> <span>GIT</span></p>
+            <img src="data:image/png;base64,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" alt="qr-code">
+        </footer>
+      
+        
+    </div>
+
+
+    
+</body>
+
+</html>
